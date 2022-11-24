@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+body,html{
+	height: 100%;
+	width: 100%;
+	padding: 0 2px;
+	background-color: #ff7a7a;
+	background-image: url(../fotos/background-bg.png);
+	
+
+}
+
+#section1{
+	width: 100%;
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	height: 100%;
+
+}
+
+div.container-text{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	margin-top: 3rem;
+	padding: 48px;
+	justify-content: center;
+
+	
+
+}
+	div.container-text h1{
+		font-size: 3rem;
+		color: white;
+		}
+		div.container-text p{
+			color: white;
+			margin: 16px 0;
+
+		}
+div.container-form{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+	div.container-form .experimente-gratis{
+		background-color: #6055a5;
+		border-radius: 12px;
+		color: #f0f8ff;
+		margin: 2rem;
+   		padding: 1rem;
+	}
+	div.container-form .div-form{
+		align-items: center;   		
+    	justify-content: center;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin: 0 2rem 2rem;
+    	padding: 1rem 0.5rem;
+		background-color: #fff;
+	    border: 1px solid #fff;
+		border-radius: 15px;
+	    box-shadow: 0 3px #888;
+	}
+	div.container-form .input{
+		padding: 1.2rem 13.309999999999999rem 1.2rem 0.3999999999999999rem;
+    	padding-top: 1.2rem;
+    	padding-right: 13.31rem;
+    	padding-bottom: 1.2rem;
+    	padding-left: 0.4rem;
+		margin: 0.5rem;
+  	  	margin-top: 0.5rem;
+    	margin-right: 0.5rem;
+    	margin-bottom: 0.5rem;
+    	margin-left: 0.5rem;
+		border: thin solid grey;
+	    border-radius: 0.5rem;
+	}
+	div.container-form .btn {
+		background-color: #38cc8c;
+		border: 0;
+		border-radius: 0.15em;
+		box-shadow: inset 0 -0.6em 0 -0.35em rgb(0 0 0 / 17%);
+		box-sizing: border-box;
+		color: #fff;
+		display: inline-block;
+		font-weight: 400;
+		font-weight: 900;
+		letter-spacing: .1em;
+		padding: 1rem 2rem;
+		position: relative;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 15px;
+	}
+	div.container-form p{
+		align-items: center;
+		text-align: center;
+		margin: 20px 0;
+	}
+	@media screen and (min-width: 768px){
+	.form {
+		width: 26.5rem;
+	}
+}
